@@ -1,0 +1,9 @@
+Middlewares:DebugBar:
+  className: 'Middlewares\Debugbar'
+  arguments:
+    1:
+      object: 'Shel\Flow\DebugBar\Debug\FlowDebugBar'
+    2:
+      object: 'Neos\Http\Factories\ResponseFactory'
+    3:
+      object: 'Neos\Http\Factories\StreamFactory'

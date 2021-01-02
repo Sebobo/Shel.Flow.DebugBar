@@ -1,0 +1,7 @@
+Neos:
+  Flow:
+    http:
+      middlewares:
+        PHPDebugBar:
+          middleware: Middlewares:DebugBar
+          position: 'start'
